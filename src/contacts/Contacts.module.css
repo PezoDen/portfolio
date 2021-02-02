@@ -1,0 +1,30 @@
+.contactsBlock {
+    height: 100vh;
+    background: rgb(179, 234, 124);
+
+}
+
+.contactsContainer {
+    flex-direction: column;
+}
+
+.title {
+    background: #dbcccc;
+}
+
+.contacts {
+    border: 1px solid red;
+    width: 285px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.textarea {
+    resize: vertical;
+}
+
+@media screen and (max-width: 568px) {
+    .contacts{
+        width: 100%;
+    }
+}

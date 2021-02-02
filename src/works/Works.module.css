@@ -1,0 +1,23 @@
+.workBlock {
+    height: 100vh;
+    background: rgb(179, 234, 124);
+
+}
+
+.worksContainer {
+    /*align-items: center;*/
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.title {
+    background: #dbcccc;
+}
+
+.works {
+    border: 1px solid;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
